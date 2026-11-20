@@ -18,19 +18,7 @@ Primer uso: si el archivo no existe, avisa y arranca con datos vacíos (no falla
 Archivo dañado: se lee primero a copias temporales; si algo está mal, no se carga nada y se conservan los datos que ya había en memoria.
 Validaciones al cargar: calificaciones entre 0 y 100 y que el grupo de cada alumno exista.
 
-Formato de datos.txt
-GRUPOS 2
-A1|ISC
-B1|LIS
-MAESTROS 1
-Prof Lopez|Mate
-ALUMNOS 3
-Ana Perez|1001|100|90|95|0
-Luis Gomez|1002|70|80|75|1
-Maria Ruiz|1003|88|92|85|0
 
-El último campo del alumno es la posición de su grupo en la lista de grupos (empieza en 0).
-Por eso el archivo guarda primero los grupos y después los alumnos.
 
 Pruebas realizadas
 Primer uso sin datos.txt: inicia vacío sin errores.
